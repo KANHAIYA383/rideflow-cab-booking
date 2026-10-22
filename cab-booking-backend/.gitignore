@@ -1,0 +1,31 @@
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+application-local.properties
+application-secret.properties
+
+# Java and Maven build output
+**/target/
+
+# Node dependencies and build output
+**/node_modules/
+**/dist/
+
+# Logs
+*.log
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.vscode/
+*.zip
+**/target/
+**/node_modules/
+**/dist/
+.env
+.env.*
+!.env.example

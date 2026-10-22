@@ -1,0 +1,21 @@
+﻿# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Local configuration secrets
+**/application-local.properties
+**/application-secret.properties
+
+# Build output and dependencies
+**/target/
+**/node_modules/
+**/dist/
+
+# Editor files
+.vscode/
+.idea/
+
+# Generated archives and logs
+*.zip
+*.log
