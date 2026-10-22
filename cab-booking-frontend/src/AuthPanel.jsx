@@ -1,7 +1,7 @@
 
 import { useState } from "react";
 
-const API_URL = "http://localhost:8080/api/auth";
+const API_URL = "https://rideflow-cab-booking-1.onrender.com/api/auth";
 
 export default function AuthPanel({ onUserChange }) {
   const [mode, setMode] = useState("login");

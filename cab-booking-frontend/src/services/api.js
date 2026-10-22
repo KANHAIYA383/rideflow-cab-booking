@@ -1,5 +1,5 @@
 
-const API_BASE_URL = 'http://localhost:8080'
+const API_BASE_URL = 'https://rideflow-cab-booking-1.onrender.com'
 
 async function request(path, options = {}) {
   const response = await fetch(`${API_BASE_URL}${path}`, {

@@ -7,7 +7,7 @@ import DriverLiveMap from "./DriverLiveMap";
 
 
 
-const API_URL = "http://localhost:8080/api/rides";
+const API_URL = "https://rideflow-cab-booking-1.onrender.com/api/rides";
 
 function RideStatusTimeline({ status }) {
   const steps = [

@@ -1,7 +1,7 @@
 
 import { useState } from "react";
 
-const API = "http://localhost:8080/api";
+const API = "https://rideflow-cab-booking-1.onrender.com/api";
 
 export default function DriverRegistration({ user, onRegistered }) {
   const [form, setForm] = useState({

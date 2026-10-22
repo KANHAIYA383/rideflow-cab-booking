@@ -1,7 +1,7 @@
 
 import { useState } from "react";
 
-const API_URL = "http://localhost:8080/api/rides";
+const API_URL = "https://rideflow-cab-booking-1.onrender.com/api/rides";
 
 const vehicleRates = {
   Mini: { base: 40, perKm: 12 },
