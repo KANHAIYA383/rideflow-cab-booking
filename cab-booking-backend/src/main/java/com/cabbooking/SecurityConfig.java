@@ -58,7 +58,7 @@ public class SecurityConfig {
 
         config.setAllowedOrigins(List.of(
     "http://localhost:5173",
-    "https://rideflow-cab-booking.vercel.app"
+    "https://rideflow-cab-booking-r1jftg1fw-kanhaiya12.vercel.app"
 ));
         config.setAllowedMethods(
             List.of("GET", "POST", "PUT", "DELETE", "OPTIONS")
