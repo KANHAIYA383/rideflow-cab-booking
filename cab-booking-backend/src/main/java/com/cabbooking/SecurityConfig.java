@@ -56,8 +56,9 @@ public class SecurityConfig {
     public CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration config = new CorsConfiguration();
 
-        config.setAllowedOrigins(List.of(
+       config.setAllowedOrigins(List.of(
     "http://localhost:5173",
+    "https://rideflow-cab-booking-t5pn-lvxduelsw-kanhaiya12.vercel.app",
     "https://rideflow-cab-booking-r1jftg1fw-kanhaiya12.vercel.app"
 ));
         config.setAllowedMethods(
